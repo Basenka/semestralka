@@ -16,6 +16,12 @@ h1 {
     font-size: large;
 }
 
+img {
+    padding: 5px;
+    align-content: center;
+    width: 700px;
+}
+
 h2 {
     color: lightgray;
 }
