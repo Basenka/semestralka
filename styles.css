@@ -22,7 +22,31 @@ img {
     width: 700px;
 }
 
+.darkBackround {
+    background-color: #454140;
+    color: white;
+}
+
+.mask {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
 h2 {
     color: lightgray;
 }
 
+.link {
+    color: white;
+    padding: 5px;
+    margin: 3px;
+}
+
+a.link.active {
+    color: darkgrey;
+}
+
+.container.dark {
+    background-color: black;
+    color: darkgrey;
+    align-self: center;
+}
