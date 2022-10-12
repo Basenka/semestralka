@@ -81,8 +81,8 @@ li {
     margin-bottom: 5px;
 }
 li:before {
-    content: '\2022';
-    color: #eb9376;
+    content: "•";
+    color: darkred;
     margin-right: 5px;
 }
 
@@ -95,13 +95,3 @@ h3 {
     padding: 5px;
     border-bottom: 2px solid #454140;
 }
-
-
-/*@media (min-width:599px) {*/
-/*    .recipe-card {*/
-/*        width: 600px*/
-/*    }*/
-/*    .recipe-card__ingredients {*/
-/*        column-count: 2*/
-/*    }*/
-/*}*/
