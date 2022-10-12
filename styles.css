@@ -16,12 +16,6 @@ h1 {
     font-size: large;
 }
 
-img {
-    padding: 5px;
-    align-content: center;
-    height: 70vh;
-    margin-top: 30px;
-}
 
 .darkBackground {
     background-color: #454140;
@@ -53,11 +47,6 @@ a.link.active {
 }
 
 
-h3 {
-    text-align: start;
-    align-self: start;
-}
-
 .recipe-card {
     border:1px solid #f0f1f3;
     width: 80vw;
@@ -67,23 +56,19 @@ h3 {
 
 .recipe-card-header {
     background-image: url("pizza.jpg");
-    height: 150px;
+    height: 291px;
     background-position: center center;
     background-repeat: no-repeat;
-    margin: 0px;
+    margin: 5px;
+    object-fit: fill;
 }
 .recipe-card__body {
     padding: 20px;
 }
-.recipe-card__heading {
-    padding: 0;
-    margin: 0 0 0;
-    color: #444;
-}
-.recipe-card__subhead {
-    font-size: 13px;
-    color: #555;
-    margin-bottom: 30px;
+
+.card-description {
+    color: darkgrey;
+    font-size: 15px;
 }
 .recipe-card__ingredients {
     list-style: none;
@@ -101,33 +86,14 @@ li:before {
     margin-right: 5px;
 }
 
-.recipe-card__nav {
-    margin: 0 0 20px;
-    padding: 0;
-    border-bottom: 1px solid #eb9376;
-}
 li {
     display: inline-block;
     margin-right: 30px
 }
 h3 {
-    margin: 0;
-    padding: 0;
-}
-h3:after {
-    content: '';
-    display: block;
-    width: 0%;
-    padding-top: 10px;
-    margin: 0 auto;
-    border-bottom: 5px solid #eb9376;
-    transition: width 250ms ease-in-out 0s;
-}
-h3:hover {
-    cursor: pointer;
-}
-h3:hover:after, h3.active:after {
-    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    border-bottom: 2px solid #454140;
 }
 
 
@@ -138,4 +104,4 @@ h3:hover:after, h3.active:after {
 /*    .recipe-card__ingredients {*/
 /*        column-count: 2*/
 /*    }*/
-}
+/*}*/
